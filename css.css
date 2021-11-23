@@ -13,8 +13,8 @@ body {
 	display: grid;
 }
 :root {
-	--bg-color: #ffffff;
-	--txt-color: #000000;
+	--bg-color: #000000;
+	--txt-color: #ffffff;
 	--highlight-color: #ffab40;
 	--link-color: #008472;
 	--shade-color: #999999;

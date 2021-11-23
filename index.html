@@ -1,0 +1,26 @@
+﻿<html>
+	<head>
+		<title>sitelen Linku</title>
+		<link rel="stylesheet" type="text/css" href="css.css" />
+		<link rel="stylesheet" type="text/css" href="checkbox.css" />
+		<link rel="shortcut icon" href="icon.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Serif">
+		<script src="data.json"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body onload="main()">
+		<div>
+			<p>This page is meant to be a cute plaything, not a comprehensive dictionary.</p>
+			<p>If you want a real dictionary, check out <a href="https://lipu-linku.github.io">lipu Linku</a> instead.</p>
+		</div>
+		<select id="language_selector" onchange="language_select_changed(this)">
+		</select>
+		<div>
+			<div id="book_selector">
+			</div>
+		</div>
+		<div id="dictionary">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "linja sike";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://wyub.github.io/tokipona/linja-sike-5.otf);
+}
+
+body {
+	font-family: "Noto Sans", "Helvetica", sans-serif;
+	text-align: center;
+	background-color: var(--bg-color);
+	color: var(--txt-color);
+	display: grid;
+}
+:root {
+	--bg-color: #ffffff;
+	--txt-color: #000000;
+	--highlight-color: #ffab40;
+	--link-color: #008472;
+	--shade-color: #999999;
+}
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+p {
+	margin: 8px;
+}
+#dictionary {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.entry {
+	overflow: hidden;
+}
+.word {
+	font-size: 120%;
+	font-weight: bold;
+}
+.definition {
+	font-size: 88%;
+}
+.sitelenpona {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "linja sike";
+	font-size: 500%;
+}
+.shaded {
+	color: var(--shade-color);
+}
+#book_selector {
+	display: inline-grid;
+}
+#language_selector {
+	width: justify;
+	margin: auto;
+}

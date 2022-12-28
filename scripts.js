@@ -147,7 +147,7 @@ function book_select_changed() {
 	fill_dictionary()
 }
 
-const bundle_url = "https://lipu-linku.github.io/jasima/data.json"
+const bundle_url = "https://linku.la/jasima/data.json"
 const bundle = JSON.parse(Get(bundle_url))
 const data = bundle["data"]
 const languages = bundle["languages"]
